@@ -1,0 +1,73 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+
+
+
+}
+
+.in {
+    background: url(/img/bg-pattern-top.svg) no-repeat no-repeat bottom 250px left -5rem,
+        url(/img/bg-pattern-top.svg) no-repeat no-repeat top 400px right -50px;
+    background-size: contain;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    min-height     : 100vh;
+    flex-direction : column;
+    overflow       : hidden;
+
+}
+
+.box {
+    background-color: white;
+    border          : none;
+    border-radius   : 15px;
+    width           : 350px;
+    text-align      : center;
+    margin          : 0 auto;
+    margin-top      : 15px;
+
+}
+
+.img-box img {
+    border-top-left-radius : 15px;
+    border-top-right-radius: 15px;
+    border                 : none;
+}
+
+.profile img {
+    border-radius: 50%;
+    border       : 5px solid white;
+    margin-top   : -50px;
+}
+
+h1 {
+    font-size : 20px;
+    margin-top: 20px;
+}
+
+span {
+    color: hsl(0, 0%, 59%);
+}
+
+.country {
+    color: hsl(0, 0%, 59%);
+}
+
+.statics {
+    display        : flex;
+    justify-content: space-around;
+}
+
+.number-member {
+    font-weight: 700;
+    font-size  : 18px;
+    line-height: 1px;
+}
+
+.text-member {
+    color         : hsl(0, 0%, 59%);
+    font-size     : 11px;
+    margin-top    : 1rem;
+    
+}

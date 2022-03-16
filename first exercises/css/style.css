@@ -1,0 +1,86 @@
+body{
+   background-image: url(/img/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+	background-color: hsl(225, 100%, 94%);
+	
+}
+.box{
+height: 100%;
+width: 450px;
+background-color: white;
+border: none;
+border-radius: 20px;
+text-align: center;
+margin: 0 auto;
+margin-top: 50px;
+box-shadow: 0px 20px 10px rgba(0,0,0,0.1);
+}
+.box img{
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+h4{
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-weight: 800;
+}
+.box p{
+	color:hsl(224, 23%, 55%);
+	font-weight: 600;
+}
+.in-box{
+
+    height: 100px;
+	width: 350px;
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: hsl(225, 100%, 98%);
+	display: flex;
+	align-items: center;
+	
+}
+.icon{
+	padding-left: 20px;
+
+}
+.txt{
+	padding-left: 10px;
+font-weight: 800;
+	
+}
+
+.txt span{
+	color:hsl(223, 21%, 81%);
+
+	
+} 
+.change{
+    margin-left: auto;
+    padding-right: 20px;
+	color: hsl(245, 75%, 52%);
+	text-decoration: underline;
+	font-weight: 700;
+}
+.btn button{
+	background-color: hsl(245, 75%, 52%);
+	box-shadow: 0px 20px 10px rgba(0,0,0,0.1);
+	height: 45px;
+	width: 350px;
+	border-radius: 10px;
+	border: none;
+	color: white;
+	
+}
+.btn p {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-weight: 500;
+	
+}
+.btn p a{
+	color: hsl(224, 23%, 55%);
+	
+
+}
