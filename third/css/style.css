@@ -1,0 +1,203 @@
+body {
+    background-color   : #FE715D;
+    background-image   : url(/img/Group\ 6.svg);
+    background-repeat  : no-repeat;
+    background-position: right 15% bottom 90%;
+}
+
+.box {
+    margin         : 0 auto;
+    margin-top     : 5%;
+    display        : flex;
+    justify-content: center;
+}
+
+.img-left {
+    background-color         : rgba(255, 255, 255, 47%);
+    border-top-left-radius   : 20px;
+    border-bottom-left-radius: 20px;
+    z-index                  : 99;
+    width                    : 516PX;
+    height                   : 570PX;
+}
+
+.logo img {
+    margin: 25px 0 0 20px;
+
+}
+
+.base-img {
+    margin-left: 10%;
+
+}
+
+.img-left p {
+    color      : #FFFFFF;
+    font-size  : 18px;
+    line-height: 19px;
+
+}
+
+.shape {
+    color     : white;
+    margin-top: -50px;
+}
+
+/******************form********************/
+.form-right {
+    background-color          : #fff;
+    border-top-right-radius   : 20px;
+    border-bottom-right-radius: 20px;
+    z-index                   : 99;
+    width                     : 516PX;
+    height                    : 570PX;
+}
+
+form {
+    margin-top : 18%;
+    margin-left: 10%;
+}
+
+form h2 {
+    font-size: 28px;
+}
+
+form p {
+    color    : #B6B4B4;
+    font-size: 12px;
+}
+
+form span {
+    color    : #FE715D;
+    font-size: 12px;
+
+}
+
+/***************google*************/
+.google {
+    border          : 2px #B6B4B4 solid;
+    border-radius   : 10px;
+    background-color: #fff;
+    width           : 173px;
+    height          : 38px;
+    font-size       : 12px;
+
+}
+
+.google img {
+    width : 16.17px;
+    height: 16.17px;
+}
+
+/***************facebook*************/
+.facebook {
+    border          : 2px #527BC9 solid;
+    border-radius   : 10px;
+    background-color: #527BC9;
+    color           : #fff;
+    ;
+    width    : 173px;
+    height   : 38px;
+    font-size: 12px;
+}
+
+.facebook img {
+    width           : 16.6px;
+    height          : 16.5px;
+    background-color: white;
+    border-radius   : 50%;
+}
+
+/*****************line***************/
+.line__center {
+
+    display              : grid;
+    grid-template-columns: 36% max-content 36%;
+    grid-column-gap      : 15px;
+    align-items          : center;
+}
+
+.line__center::before,
+.line__center::after {
+    content         : "";
+    height          : 1px;
+    background-color: #707070;
+}
+
+/*****************email & password***************/
+.fontuser {
+    position : relative;
+    font-size: 12px;
+
+}
+
+.fontuser label {
+    color: #707070;
+}
+
+.fontuser input {
+    padding-left : 50px;
+    width        : 370px;
+    height       : 38px;
+    border-radius: 5px;
+    color        : #A5A5A5;
+    font-size    : 12px;
+}
+
+.fontuser i {
+    position     : absolute;
+    left         : 15px;
+    top          : 40px;
+    color        : #A5A5A5;
+    padding-right: 10px;
+    font-family  : fontawesome !important;
+    width        : 14px;
+    height       : 10px;
+}
+
+/*****************cheack box***************/
+.form-check input {
+    width : 14px;
+    height: 14px;
+}
+
+.form-check-label {
+    font-size: 12px;
+    color    : #A5A5A5;
+}
+
+.form-check-label span {
+    color: #FE715D;
+}
+
+/*****************BTN***************/
+.btn {
+    width           : 360PX;
+    height          : 38PX;
+    background-color: #FE715D;
+    border          : 1PX solid #FE715D;
+    border-radius   : 5PX;
+    font-size       : 12PX;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1199px) {
+    .img-left {
+        width: 100%;
+        border-radius: 10px;
+margin: 0;
+
+    }
+
+    .base-img {
+        margin-left: 10%;
+    }
+    .form-right{
+        width: 100%;
+        border-radius: 10px;
+    }
+}
